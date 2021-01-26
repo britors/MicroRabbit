@@ -10,4 +10,9 @@
     <Folder Include="Services\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\MicroRabbit.Microservices.Transfer.Data\MicroRabbit.Microservices.Transfer.Data.csproj" />
+    <ProjectReference Include="..\..\Domain\MicroRabbit.Microservices.Transfer.Domain\MicroRabbit.Microservices.Transfer.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
